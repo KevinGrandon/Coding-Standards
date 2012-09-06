@@ -7,15 +7,13 @@ As ideas, best practices, and standards continue to emerge and evolve - so shall
 ## Contents
 
 * [CSS](#css)
-* [HTML](#syntax)
+* [HTML](#html)
 * [Javascript](#javascript)
 * [Comments](#comments)
 
-* [Misc](#misc)
-
 ## CSS
 
-### Spacingp
+### Spacing
 
 * Insert a single space after : in declarations.
 * Tabs or spaces should be 4 characters in width. (I prefer tabs)
