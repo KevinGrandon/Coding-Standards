@@ -198,7 +198,7 @@ var foo = function() {
 alert(foo())
 ```
 
-### Semicolons on the same line
+### Braces on the same line
 
 There are very few required rules as part of this document, but this is one of them. Due to automatic semicolon insertion, we are required to use braces on the same line as statements. Take the following example:
 
