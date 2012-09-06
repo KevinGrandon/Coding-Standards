@@ -143,7 +143,7 @@ This guide assumes that you are serving HTML5 content, and thus there is no need
 ### Casing
 
 * Use CamelCase for names of classes and prototypes.
-* Use camelBacked should be used for variables and methods.
+* Use camelBacked for variables and methods.
 
 ``` JS
 // Demonstrating proper use of casing in Javascript 
@@ -158,10 +158,10 @@ var clunker = new Car()
 
 ### Variables
 
-All variable statements in a block must be declared at the top of the block with a single var statement.
+It's highly recommended, but not required, that all variable statements in a block be declared at the top of the block. Use a single statement where it makes sense, or logical groupings of statements otherwise.
 
 ``` JS
-// Incorrect, multiple var statements
+// Not ideal, using multiple var statements
 function foo() {
     var sauce = 'bbq'
     var leet = false
@@ -239,6 +239,23 @@ var foo = function() {
 }
 ```
 
+### Comma Style
+
+Either leading or trailing styles of commas are fine. Work with your team to see which makes more sense and stick to one style. The leading comma style is fairly new, but gaining momenteum. Some people believe it allows for easier debugging and editing of code.
+
+The recommendation is that you use 'blocking' to align variable names where possible.
+
+``` JS
+// Trailing comma approach
+var sauce = 'bbq',
+    comma = 'trailing',
+    aligned
+
+// Leading comma approach
+var sauce = 'bbq'
+  , comma = 'trailing'
+  , aligned
+```
 
 ## Comments
 
