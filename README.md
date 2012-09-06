@@ -15,7 +15,7 @@ As ideas, best practices, and standards continue to emerge and evolve - so shall
 
 ## CSS
 
-### Spacing
+### Spacingp
 
 * Insert a single space after : in declarations.
 * Tabs or spaces should be 4 characters in width. (I prefer tabs)
@@ -152,7 +152,7 @@ This guide assumes that you are serving HTML5 content, and thus there is no need
 function Car() {
 }
 
-Car.prototype.pressBrakes = function(){}
+Car.prototype.pressBrakes = function() {}
 
 var clunker = new Car()
 ```
