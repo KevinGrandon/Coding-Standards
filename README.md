@@ -44,8 +44,9 @@ As CSS features hyphen-delimited syntax, we recommend adhering to that standard.
 
 ```CSS
 a {
-    padding:10px 0 0 10px;// Instead of padding-top and padding-left
-    color:#FFF; // Shorthand syntax
+    margin: 10px 0 0 10px;// Instead of margin-top and margin-left
+    padding: 10px 0 10px; // Leave off unnecessary values
+    color: #FFF; // Shorthand syntax 
 }
 ```
 
@@ -77,8 +78,8 @@ div {
     background: #FFF;
 
     // Colors and Typography
-    font-size:12px;
-    color:#FFF;
+    font-size: 12px;
+    color: #FFF;
 }
 ```
 
