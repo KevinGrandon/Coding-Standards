@@ -91,7 +91,7 @@ div {
 * Lowercase tag and attribute names
 * Use data- attributes where applicable
 * Avoid using custom attributes
-* Do not use event hooks suck as onclick or onload
+* Do not use inline event hooks such as onclick or onload
 
 ``` HTML
 <div class="good-tag"></div>
