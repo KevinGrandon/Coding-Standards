@@ -141,6 +141,18 @@ This guide assumes that you are serving HTML5 content, and thus there is no need
 
 ## Javascript
 
+### No Semicolons
+
+Javascript provides for automatic semicolon insertion. Learn it, and embrace it. In addition to increased productivity, it makes for cleaner code.
+
+``` JS
+var foo = function() {
+    return true
+}
+
+alert(foo())
+```
+
 ### Casing
 
 * Use CamelCase for names of classes and prototypes.
@@ -186,18 +198,6 @@ var sauce = {}
 var pies = []
 ```
 
-
-### No Semicolons
-
-Javascript provides for automatic semicolon insertion. Learn it, and embrace it. Very little productivity is gained, but if you don't need those extra key strokes, you might as well save the effort.
-
-``` JS
-var foo = function() {
-    return true
-}
-
-alert(foo())
-```
 
 ### Braces on the same line
 
