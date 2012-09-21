@@ -258,6 +258,17 @@ var sauce = 'bbq'
   , aligned
 ```
 
+### Anonymous Functinos
+
+Create anonymouns functions using a urnary operator followed by a self calling function. We recommend using the bang (!) for this.
+
+``` JS
+!function() {
+   // Do something
+}()
+```
+
+
 ## Comments
 
 Well formed comments should be provided for every function and class definition. A class/function level comment should follow the format of:
